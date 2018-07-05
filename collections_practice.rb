@@ -15,7 +15,9 @@ def sort_array_desc(int_array)
 end
 
 def sort_array_char_count(str_array)
-  
+  str_array.sort do |first, second|
+    if first.length == second.length
+  end
 end 
 
 def swap_elements(array)
