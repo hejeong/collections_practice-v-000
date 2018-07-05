@@ -17,6 +17,12 @@ end
 def sort_array_char_count(str_array)
   str_array.sort do |first, second|
     if first.length == second.length
+      0
+    elsif first.length < second.length
+      -1
+    elsif first.length > second.length
+      1
+    end
   end
 end 
 
