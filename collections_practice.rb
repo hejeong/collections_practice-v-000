@@ -48,6 +48,7 @@ def kesha_maker(str_array)
   kesha_style = []
   str_array.each do |string|
     temp_array = string.split("")
+    temp_array[2] = "$"
   end
   kesha_style
 end 
