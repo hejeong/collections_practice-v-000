@@ -47,7 +47,7 @@ end
 def kesha_maker(str_array)
   kesha_style = []
   str_array.each do |string|
-    string.replace(2, "$")
+    kesha_style << string.replace(2, "$")
   end
   kesha_style
 end 
