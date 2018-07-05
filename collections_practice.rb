@@ -61,7 +61,7 @@ def find_a(str_array)
 end 
 
 def sum_array(int_array)
-  int_array.inject|
+  int_array.inject(:+)
 end
 
 def add_s
