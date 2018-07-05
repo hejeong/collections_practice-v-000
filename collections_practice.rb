@@ -64,6 +64,6 @@ def sum_array(int_array)
   int_array.inject(:+)
 end
 
-def add_s
+def add_s(str_array)
   
 end
