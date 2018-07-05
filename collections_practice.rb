@@ -54,8 +54,10 @@ def kesha_maker(str_array)
   kesha_style
 end 
 
-def find_a
-  
+def find_a(str_array)
+  str_array.select do |string|
+    string.start_with?("a")
+  end
 end 
 
 def sum_array
