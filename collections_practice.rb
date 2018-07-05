@@ -65,5 +65,8 @@ def sum_array(int_array)
 end
 
 def add_s(str_array)
-  
+  count = 0
+  str_array.collect do |string|
+    
+  end
 end
