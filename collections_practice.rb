@@ -49,6 +49,7 @@ def kesha_maker(str_array)
   str_array.each do |string|
     string.replace(2, "$")
   end
+  kesha_style
 end 
 
 def find_a
