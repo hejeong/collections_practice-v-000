@@ -68,7 +68,7 @@ def add_s(str_array)
   count = 0
   str_array.collect do |string|
     if count === 1
-      
+      string
     else
       
     end
