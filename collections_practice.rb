@@ -73,6 +73,5 @@ def add_s(str_array)
     else
       
     end
-    count += 1
   end
 end
