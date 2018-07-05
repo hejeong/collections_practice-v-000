@@ -71,6 +71,7 @@ def add_s(str_array)
       count += 1
       string
     else
+      count += 1
       string << "s"
     end
   end
