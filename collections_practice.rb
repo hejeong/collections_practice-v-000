@@ -27,7 +27,8 @@ def sort_array_char_count(str_array)
 end 
 
 def swap_elements(array)
-  
+  temp_1 = array[1]
+  temp_2 = array[2]
 end
 
 def swap_elements_from_to
