@@ -29,6 +29,8 @@ end
 def swap_elements(array)
   temp_1 = array[1]
   temp_2 = array[2]
+  array[1] = temp_2
+  array[2] = temp_1
 end
 
 def swap_elements_from_to
