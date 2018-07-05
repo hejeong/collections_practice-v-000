@@ -34,7 +34,7 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to
-  te
+  temp = array[1]
 end
 
 def reverse_array
