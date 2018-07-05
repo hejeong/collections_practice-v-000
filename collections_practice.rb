@@ -44,8 +44,11 @@ def reverse_array(int_array)
   int_array.reverse
 end
 
-def kesha_maker
-  
+def kesha_maker(str_array)
+  kesha_style = []
+  str_array.each do |string|
+    
+  end
 end 
 
 def find_a
